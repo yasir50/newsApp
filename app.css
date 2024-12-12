@@ -1,0 +1,106 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+    }
+
+    header .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    header .search-container {
+      display: flex;
+      align-items: center;
+    }
+
+    header .search-container input {
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      width: 200px;
+    }
+
+    header .search-container button {
+      margin-left: 5px;
+      padding: 5px 10px;
+      border: none;
+      background-color: white;
+      color: #007bff;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+
+    .main {
+      padding: 20px;
+    }
+
+    .news-card {
+      display: flex;
+      margin-bottom: 20px;
+      background: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .news-card img {
+      width: 150px;
+      height: auto;
+    }
+
+    .news-card .content {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .news-card h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .news-card p {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .news-card button {
+      align-self: flex-start;
+      padding: 8px 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .news-card button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
