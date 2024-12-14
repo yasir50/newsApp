@@ -96,11 +96,3 @@
     .news-card button:hover {
       background-color: #0056b3;
     }
-
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #333;
-      color: white;
-      margin-top: 20px;
-    }
